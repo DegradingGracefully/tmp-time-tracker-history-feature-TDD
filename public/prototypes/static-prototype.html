@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<title>Svelte app</title>
+
+	<link rel="icon" type="image/png" href="/favicon.png">
+	<link rel="stylesheet" href="/global.css">
+	<link rel="stylesheet" href="/build/bundle.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
+	<script defer src="/build/bundle.js"></script>
+
+	<style>
+		.my-main-container {
+			width: 600px;
+		}
+
+		.box {
+			padding-top: 0px;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<div class="my-main-container container">
+			<article class="panel">
+				<p class="panel-heading has-background-warning">
+					<span data-testid="main-title" class="title is-4">Tasks History</span>
+				</p>
+				<br />
+
+				<div class="box">
+					<div class="has-text-right"><u><i>Showing 0 task</i></u></div>
+					<br />
+
+					<div class="columns">
+						<div class="column is-3"><strong>Day / Hours</strong></div>
+						<div class="column is-2"><strong>Duration</strong></div>
+						<div class="column is-7 has-text-right"><strong>Task title</strong></div>
+					</div>
+
+					<div class="columns">
+						<div class="column is-5" data-testid="day"><u>Tuesday, March 16</u></div>
+						<div class="column is-7 has-text-right"></div>
+					</div>
+
+					<div class="columns">
+						<div class="column is-3" data-testid="task-hours">10:10 - 10:17</div>
+						<div class="column is-2" data-testid="task-duration">(7 min)</div>
+						<div class="column is-7 has-text-right" data-testid="task-title">Implement history feature
+						</div>
+					</div>
+					<div class="columns">
+						<div class="column is-3">09:22 - 10:10</div>
+						<div class="column is-2">(48 min)</div>
+						<div class="column is-7 has-text-right">Study rust book</div>
+					</div>
+
+					<div class="columns">
+						<div class="column is-5" data-testid="day1"><u>Monday, March 15</u></div>
+						<div class="column is-7 has-text-right"></div>
+					</div>
+
+					<div class="columns">
+						<div class="column is-3" data-testid="task-hours">11:03 - 12:36</div>
+						<div class="column is-2" data-testid="task-duration">(1h33)</div>
+						<div class="column is-7 has-text-right" data-testid="task-title">Backup home partition
+						</div>
+					</div>
+				</div>
+
+		</div>
+</body>
+
+</html>

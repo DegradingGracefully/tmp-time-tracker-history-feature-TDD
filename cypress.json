@@ -1,0 +1,6 @@
+{
+    "baseUrl": "http://localhost:5000",
+    "env": {
+        "serverUrl": "http://localhost:5009"
+    }    
+}

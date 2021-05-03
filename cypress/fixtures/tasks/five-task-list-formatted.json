@@ -1,0 +1,34 @@
+{
+    "tasks": [
+        {
+            "title": "Implement history feature",
+            "day": "Tuesday, March 16",
+            "hourBegin": "10:10",
+            "hourEnd": "10:17"
+        },
+        {
+            "title": "Study rust book",
+            "day": "Tuesday, March 16",
+            "hourBegin": "09:22",
+            "hourEnd": "10:10"
+        },
+        {
+            "title": "Implement history feature",
+            "day": "Monday, March 15",
+            "hourBegin": "15:58",
+            "hourEnd": "16:43"
+        },
+        {
+            "title": "Read Svelte / Rollup config tutorial",
+            "day": "Monday, March 15",
+            "hourBegin": "14:13",
+            "hourEnd": "15:45"
+        },
+        {
+            "title": "Backup home partition",
+            "day": "Monday, March 15",
+            "hourBegin": "11:03",
+            "hourEnd": "12:36"
+        }
+    ]
+}
